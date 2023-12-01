@@ -1,0 +1,94 @@
+/*font family*/
+ .banner-section h1,
+ .banner-section p,
+ .banner-section .wp-block-button__link,
+ .products-section h2,
+ .products-section p,
+ .products-section h3,
+ .products-section .wc-block-grid__product-add-to-cart,
+ .products-section ul li a{
+    font-family: 'Poppins', sans-serif;
+}
+/*banner section*/
+.banner-section{
+    width: auto;
+    height: auto;
+}
+.banner-section h1{
+    font-weight: 600;
+}
+.banner-section .wp-block-button__link{
+    color: #fff !important;
+    padding: 8px 15px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px !important;
+}
+.banner-section .wp-block-button__link:hover{
+    color: #fff;
+    background: #010146 !important;
+}
+/*products section*/
+.products-section .wp-block{
+    margin-top: 0;
+    margin-bottom:0;
+}
+.products-section .wc-block-grid__product{
+    padding: 15px;
+    box-shadow: 0 0 10px #ddd;
+}
+.products-section .wc-block-grid__product-title{
+    font-size: 22px;
+    font-weight: 500;
+    color: #010146;
+}
+.products-section .wc-block-grid__product-price {
+    color: #3a9046;
+    font-size: 15px;
+    font-weight: 600;
+}
+.products-section .wc-block-grid__product-image{
+    float: left;
+    width: 30%;
+}
+.products-section  .wc-block-grid__product-onsale{
+    display: none;
+}
+.products-section .wp-block-button__link ,.products-section .wp-block-button__link:hover{
+    background: unset;
+    text-decoration: none;
+}
+.products-section .wp-block-button__link{
+    color: #010146 !important;
+    font-size: 15px!important;
+    font-weight: 500;
+    padding: 0px 0px 0px 5px !important;
+}
+.products-section .wc-block-grid__product-add-to-cart:before{
+    content: '\f067';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    display: inline-block;
+    font-size: 9px;
+    background: #fee5c8;
+    color: #010146;
+    padding: 5px 8px;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+.products-section li.wc-block-grid__product{
+    text-align: left;
+    margin: 0px 9px 20px !important;
+    flex: 1 0 47% !important;
+    max-width: 47% !important;
+}
+.products-section .wc-block-grid__product-image img ,.products-section .wc-block-grid__product-image{
+    margin: 0;
+}
+.products-section ul li a{
+    text-decoration: none;
+}
+.top-seller-section p{
+    margin-bottom: 20px !important;
+}
